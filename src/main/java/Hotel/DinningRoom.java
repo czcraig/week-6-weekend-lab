@@ -1,4 +1,22 @@
 package Hotel;
+import Hotel.DinningRoom;
 
-public class DinningRoom {
-}
+import java.util.ArrayList;
+
+
+    public class DinningRoom extends Room{
+
+        public DinningRoom(int capacity){
+          super(capacity);
+        }
+
+
+
+
+
+
+    }
+
+
+
+
