@@ -30,4 +30,7 @@ public abstract class Room {
     }
 
 
+    public void checkOutGuest() {
+        this.guests.clear();
+    }
 }

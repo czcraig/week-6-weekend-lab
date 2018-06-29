@@ -36,6 +36,14 @@ public class BedroomTest {
        assertEquals(1, bedroom.numberOfGuests());
    }
 
+   @Test
+    public void checkOutGuest(){
+       bedroom.checkInGuest(guest);
+       bedroom.checkOutGuest();
+       assertEquals(0, bedroom.numberOfGuests());
+
+   }
+
 
 
 
