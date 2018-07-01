@@ -44,6 +44,27 @@ public class BedroomTest {
 
    }
 
+   @Test
+    public void getRoomNumber(){
+       assertEquals(17, bedroom.getRoomNumber());
+   }
+
+   @Test
+    public void getNightlyCost(){
+       assertEquals(50, bedroom.getNightlyCost());
+   }
+
+   @Test
+    public void getRoomType(){
+       assertEquals(RoomType.SINGLEROOM, bedroom.getRoomType());
+   }
+
+   @Test
+    public void getCapacity(){
+       assertEquals(1, bedroom.getCapacity());
+   }
+
+
 
 
 
